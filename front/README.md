@@ -70,3 +70,15 @@ Launching test:
 for following change:
 
 > npm run test:watch
+
+
+command coverage Cypress
+> ng run yoga:e2e-ci
+
+open virtual cypress:
+> cypress open
+
+open coverage array:
+> coverage/lcov-report/index.html
+
+
