@@ -6,11 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Git clone:
 
-> git clone https://github.com/OpenClassrooms-Student-Center/P5-Full-Stack-testing
-
-Go inside folder:
-
-> cd yoga
+```sh
+git clone https://github.com/kenchi-san/Testez-une-application-full-stack.git
+cd /front
+```
 
 Install dependencies:
 
@@ -18,7 +17,7 @@ Install dependencies:
 
 Launch Front-end:
 
-> npm run start;
+> ng serve;
 
 
 ## Ressources
@@ -51,14 +50,13 @@ By default the admin account is:
 
 Launching e2e test:
 
-> npm run e2e
+> ng run yoga:e2e-ci
 
 Generate coverage report (you should launch e2e test before):
 
 > npm run e2e:coverage
 
 Report is available here:
-
 > front/coverage/lcov-report/index.html
 
 #### Unitary test
@@ -72,13 +70,10 @@ for following change:
 > npm run test:watch
 
 
-command coverage Cypress
-> ng run yoga:e2e-ci
-
 open virtual cypress:
 > cypress open
 
-open coverage array:
-> coverage/lcov-report/index.html
+open coverage jest array:
+> front/coverage/jest/lcov-report/index.html
 
 
